@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/tricks.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hud-container">
+            <div class="toggle-switch">
+                <label for="regular-toggle">Regular</label>
+                <input type="checkbox" id="regular-toggle" name="stance" checked>
+                <label for="goofy-toggle">Goofy</label>
+                <input type="checkbox" id="goofy-toggle" name="stance">
+            </div>
+            <div class="buttons-container">
+                <div class="trick-group">
+                    <p>Shove It Tricks</p>
+                    <button id="bs-shove-it-180">BS Shove It 180</button>
+                    <button id="bs-shove-it-360">Bs Shove It 360</button>
+                    <button id="fs-shove-it-180">FS Shove It 180</button>
+                    <button id="fs-shove-it-360">Fs Shove It 360</button>
+                </div>
+                <div class="trick-group">
+                    <p>Kickflip Variations</p>
+                    <button id="kickflip-button">Kickflip</button>
+                    <button id="varial-kickflip-button">Varial Kickflip</button>
+                    <button id="treflip-button">Treflip</button>
+                    <button id="hardflip-button">Hardflip</button>
+                    <button id="hardflip-360-button">Hardflip 360</button>
+                </div>
+                <div class="trick-group">
+                    <p>Heelflip Variations</p>
+                    <button id="heelflip-button">Heelflip</button>
+                    <button id="varial-heelflip-button">Varial Heelflip</button>
+                    <button id="laserflip-button">Laserflip</button>
+                    <button id="inward-heelflip-button">Inward Heelflip</button>
+                    <button id="inward-heelflip-360-button">Inward Heelflip 360</button>
+                </div>
+            </div>
+        </div>
+        <div class="board-container">
+            <div class="board regular" id="skateboard"></div>
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+@keyframes kickflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+@keyframes heelflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, -360deg);
+    }
+}
+
+@keyframes varial-kickflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, 360deg);
+    }
+}
+
+@keyframes hardflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, -360deg);
+    }
+}
+
+@keyframes treflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, 720deg);
+    }
+}
+
+@keyframes hardflip-360-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, -720deg);
+    }
+}
+
+@keyframes bs-shove-it-180-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, 180deg);
+    }
+}
+
+@keyframes bs-shove-it-360-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
+}
+
+@keyframes fs-shove-it-180-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, -180deg);
+    }
+}
+
+@keyframes fs-shove-it-360-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, -360deg);
+    }
+}
+
+/* Define goofy animations with 'goofy-' prefix for all skateboard tricks */
+@keyframes goofy-kickflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, -360deg);
+    }
+}
+
+@keyframes goofy-heelflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+@keyframes goofy-varial-kickflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, -360deg);
+    }
+}
+
+@keyframes goofy-hardflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, 360deg);
+    }
+}
+
+@keyframes goofy-treflip-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, -720deg);
+    }
+}
+
+@keyframes goofy-hardflip-360-animation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 1, 720deg);
+    }
+}
+
+@keyframes goofy-bs-shove-it-180-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, -180deg);
+    }
+}
+
+@keyframes goofy-bs-shove-it-360-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, -360deg);
+    }
+}
+
+@keyframes goofy-fs-shove-it-180-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, 180deg);
+    }
+}
+
+@keyframes goofy-fs-shove-it-360-animation {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
+}
+
+.goofy.kickflip {
+    animation-name: goofy-kickflip-animation;
+}
+
+.goofy.heelflip {
+    animation-name: goofy-heelflip-animation;
+}
+
+.goofy.treflip, .goofy.inward-heelflip-360 {
+    animation-name: goofy-treflip-animation;
+}
+
+.goofy.hardflip-360, .goofy.laserflip {
+    animation-name: goofy-hardflip-360-animation;
+}
+
+.goofy.varial-kickflip, .goofy.inward-heelflip {
+    animation-name: goofy-varial-kickflip-animation;;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.goofy.hardflip, .goofy.varial-heelflip {
+    animation-name: goofy-hardflip-animation;;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.goofy.bs-shove-it-360 {
+    animation-name: goofy-bs-shove-it-360-animation;
+}
+
+.goofy.bs-shove-it-180 {
+    animation-name: goofy-bs-shove-it-180-animation;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.goofy.fs-shove-it-360 {
+    animation-name: goofy-fs-shove-it-360-animation;
+}
+
+.goofy.fs-shove-it-180 {
+    animation-name: goofy-fs-shove-it-180-animation;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.regular.kickflip {
+    animation-name: kickflip-animation;
+}
+
+.regular.heelflip {
+    animation-name: heelflip-animation;
+}
+
+.regular.treflip, .regular.inward-heelflip-360 {
+    animation-name: treflip-animation;
+}
+
+.regular.hardflip-360, .regular.laserflip {
+    animation-name: hardflip-360-animation;
+}
+
+.regular.varial-kickflip, .regular.inward-heelflip {
+    animation-name: varial-kickflip-animation;;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.regular.hardflip, .regular.varial-heelflip {
+    animation-name: hardflip-animation;;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.regular.bs-shove-it-360 {
+    animation-name: bs-shove-it-360-animation;
+}
+
+.regular.bs-shove-it-180 {
+    animation-name: bs-shove-it-180-animation;
+    animation-duration: 0.4s; /* Animation duration */
+}
+
+.regular.fs-shove-it-360 {
+    animation-name: fs-shove-it-360-animation;
+}
+
+.regular.fs-shove-it-180 {
+    animation-name: fs-shove-it-180-animation;
+    animation-duration: 0.4s; /* Animation duration */
+}
